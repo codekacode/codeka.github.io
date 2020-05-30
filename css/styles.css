@@ -1,0 +1,50 @@
+
+
+h1, tr , td {
+    font-family: 'Rock Salt', cursive;
+}
+th{
+    letter-spacing: 3px;
+}
+table , td {
+    text-align: center;
+}
+table{
+    table-layout: inherit;
+    width: 100%;
+
+}
+table tr:nth-child(odd){
+    background-color: #3c3c3c;
+    color: white;
+}
+table tr:nth-child(even){
+    background-color: #e3e4e6;
+}
+h1{
+    padding: 20px;
+    letter-spacing: 2px;
+    font-size: 3em;
+    text-shadow: 3px 3px #f0e10f;
+}
+#title{
+    text-align: center ;
+}
+.changeLink{
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    font-size: 2rem;
+    background-color:  #3c3c3c;
+    color: white;
+}
+.link{
+    color: white;
+    font-family: 'Roboto mono';
+    text-decoration: none;
+
+}
+.link:hover{
+    color: yellow;
+    font-size: 1.5em;
+}
