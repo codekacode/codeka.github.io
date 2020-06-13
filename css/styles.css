@@ -19,7 +19,30 @@
     
 }*/
 
-th , h1 , td{
+.nav{
+    
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    padding:10px;
+    color: black;
+    font-size: 1.3em;
+}
+    
+
+.main-image {
+    padding: 5rem;
+    font-size: 10rem;
+    text-align: center;
+}
+th , h1 , td{       
     letter-spacing: 3px;
 }
 table , td ,th{
@@ -29,7 +52,6 @@ table , td ,th{
 table{
     width: 85%;
     border-spacing: 0;
-    ma
     caption-side: bottom;
     margin-left: auto;
     margin-right: auto;
@@ -59,26 +81,36 @@ h1{
     text-align: center;
     font-family: 'Rock Salt', cursive;
     margin: 20px;
+   
 }
+
 
 #title{
     text-align: center ;
-}
-.changeLink{
-    margin: 1rem;
-    padding: 1rem;
+    padding: 20px;
+    letter-spacing: 2px;
+    font-size: 4rem;
+    text-shadow: 4px 6px #efd020;
     text-align: center;
-    font-size: 2rem;
-    background-color:  #3c3c3c;
-    color: white;
+    font-family: 'Rock Salt', cursive;
+    margin: 20px;
 }
+
 .link{
     color: white;
     font-family: 'Roboto mono';
     text-decoration: none;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1rem;
+    transition: all ease-in-out 300ms;
+    
 
 }
+
 .link:hover{
     color: #efd020;
     font-size: 1.7em;
+    font-weight: bold;
 }
